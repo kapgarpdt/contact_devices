@@ -35,11 +35,11 @@ import sys
 import csv
 
 #Your PagerDuty API key.  A read-only key will work for this.
-AUTH_TOKEN = 'Msz4iBvMUp4FMRCm_Mr5'
+AUTH_TOKEN = 'Add your API Token Here'
 #The API base url, make sure to include the subdomain
 URL = 'https://api.pagerduty.com/users?include%5B%5D=contact_methods'
 csvfile = "users_phone.csv"
-PD_EMAIL = 'kapgar@pagerduty.com'
+PD_EMAIL = 'Add your email here'
 
 HEADERS = {
 		'Accept': 'application/vnd.pagerduty+json;version=2',
